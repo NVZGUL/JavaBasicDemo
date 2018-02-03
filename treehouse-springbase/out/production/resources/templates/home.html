@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+
+    <link rel="stylesheet" th:href="@{/app.css}"/>
+
+    <title>giflib | Home</title>
+</head>
+<body>
+    <div class="container row">
+        <div th:each="g : ${gifs}" class="col-sm-4">
+            <h1 th:text="${g.name}">dsds</h1>
+            <a th:href="@{'/gif/'+ ${g.name}}">
+                <img src="http://placehold.it/300x300/5fcf80/fffff" alt="logo" />
+            </a>
+        </div>
+    </div>
+</body>
+</html>

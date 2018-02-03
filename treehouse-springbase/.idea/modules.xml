@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/treehouse-springbase.iml" filepath="$PROJECT_DIR$/.idea/modules/treehouse-springbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/treehouse-springbase_main.iml" filepath="$PROJECT_DIR$/.idea/modules/treehouse-springbase_main.iml" group="treehouse-springbase" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/treehouse-springbase_test.iml" filepath="$PROJECT_DIR$/.idea/modules/treehouse-springbase_test.iml" group="treehouse-springbase" />
+    </modules>
+  </component>
+</project>
